@@ -5,8 +5,8 @@ from gimpfu import *
 import os
 import sys
 
-sys.stderr = open('C:\\Users\\100062393\\Documents\\start_testing.txt', 'w')
-sys.stdout = open('C:\\Users\\100062393\\Documents\\start1_debris_testing.txt', 'w')
+#sys.stderr = open('C:\\Users\\100062393\\Documents\\start_testing.txt', 'w')
+#sys.stdout = open('C:\\Users\\100062393\\Documents\\start1_debris_testing.txt', 'w')
 
 #delets yaml if one exsists to avoid confusion
 #def delete_old_yaml(directory):
