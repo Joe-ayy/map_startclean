@@ -33,7 +33,7 @@ def paint_hazard(drw,x,y):
 	pdb.gimp_pencil(drw, 2, center)
 	pdb.gimp_context_set_background(og_background)
 	pdb.gimp_context_set_foreground(og_foreground)
-	#pdb.gimp_brush_delete(temp_brush)
+	pdb.gimp_brush_delete(temp_brush)
 	pdb.gimp_context_set_opacity(100)
 
 	
