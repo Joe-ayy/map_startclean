@@ -248,7 +248,7 @@ register(
 		"Jair Pedroza",
 		"JP",
 		"2018",
-		"<Image>/Tools/Transform Tools/_Start Clean-up",
+		"<Image>/Tools/Map Cleanup/_Start Clean-up",
 		"RGB*, GRAY*",
 		[],
 		[],
