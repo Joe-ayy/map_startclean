@@ -19,6 +19,7 @@ import sys
 def paint_hazard(drw,x,y):
 	hazard_color = "yellow"
 	hazard_radius = 27
+	og_brush = pdb.gimp_context_get_brush()
 	temp_brush = "b1"
 	center = [x,y]
 	og_background = pdb.gimp_context_get_background()
@@ -34,6 +35,7 @@ def paint_hazard(drw,x,y):
 	pdb.gimp_context_set_background(og_background)
 	pdb.gimp_context_set_foreground(og_foreground)
 	pdb.gimp_brush_delete(temp_brush)
+	pdb.gimp_context_set_brush(og_brush)
 	pdb.gimp_context_set_opacity(100)
 
 	
